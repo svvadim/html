@@ -64,10 +64,11 @@
            var result = downPosition - upPosition;
 
            var carousel = bootstrap.Carousel.getInstance(carouselEl);
-           if (result>0){
-               carousel.next();          
-           } else {
-            carousel.prev();
+            if (result>100) {
+                carousel.next();          
+           } 
+            if (result<-100) {
+                carousel.prev();
            }
         }
         </script>
