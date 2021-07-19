@@ -1,0 +1,1 @@
+# mouse swipe on bootstrap carousel
